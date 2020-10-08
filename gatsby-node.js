@@ -20,7 +20,7 @@ exports.createPages = async ({actions,graphql})=>{
 
   result.data.allContentfulWebSolution.nodes.forEach((obj)=>{
     createPage({
-      path: `/product/${obj.slug}`,
+      path: `product/${obj.slug}`,
       component: path.resolve('./src/templates/product.tsx'),
       context:{
         itemDetails : obj
