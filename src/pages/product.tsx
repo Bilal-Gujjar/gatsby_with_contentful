@@ -19,12 +19,12 @@ const Product = () => {
                 <br/>
                 <Link to="/product/Captured">Product 2 </Link>
                 <br/>
-                <Link to="product/FinalPage">Final Test </Link>
+                <Link to="product/Final-Page">Final Test </Link>
             </div>
             <Router basepath="/product">
                 <Product1 path= "/Shot-click"/>
                 <Product2 path= "/Captured"/>
-                <FinalPage path="/FinalPage"/>
+                <FinalPage path="/Final-Page"/>
                 <Main path = "/"/>
             </Router>
         </Layout>
