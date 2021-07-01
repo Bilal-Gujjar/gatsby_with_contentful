@@ -17,10 +17,13 @@ const Product = () => {
                 <Link to="/product/Shot-click">Product 1 </Link>
                 <br/>
                 <Link to="/product/Captured">Product 2 </Link>
+                <br/>
+                <Link to="product/FinalPage">Final Test </Link>
             </div>
             <Router basepath="/product">
                 <Product1 path= "/Shot-click"/>
                 <Product2 path= "/Captured"/>
+                <FinalTest path="FinalPage"/>
                 <Main path = "/"/>
             </Router>
         </Layout>
