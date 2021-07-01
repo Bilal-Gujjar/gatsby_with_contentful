@@ -9,7 +9,7 @@ export default function Fruit({pageContext}) {
         <div>
             <h1> </h1>
             <h3>Description</h3>
-    <p>{pageContext.desc}</p>
+    <p>{pageContext.description}</p>
         </div>
     )
 }

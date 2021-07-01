@@ -14,13 +14,13 @@ const Product = () => {
         <Layout>
             <h1>See Products</h1>
             <div>
-                <Link to="/product/page1">Product 1 </Link>
+                <Link to="/product/Shot-click">Product 1 </Link>
                 <br/>
-                <Link to="/product/page2">Product 2 </Link>
+                <Link to="/product/Captured">Product 2 </Link>
             </div>
             <Router basepath="/product">
-                <Product1 path="/page1"/>
-                <Product2 path="/page2"/>
+                <Product1 path= "/Shot-click"/>
+                <Product2 path= "/Captured"/>
                 <Main path = "/"/>
             </Router>
         </Layout>
