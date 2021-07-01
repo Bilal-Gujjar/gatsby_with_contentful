@@ -1,6 +1,5 @@
 var path = require('path')
 
-
 exports.createPages = async ({actions,graphql})=>{
   const{createPage} = actions;
   const result = await graphql(`
@@ -16,7 +15,7 @@ exports.createPages = async ({actions,graphql})=>{
     }
 
   }`)
-  console.log(JSON.stringify(result));
+  
 
   result.data.allContentfulWebSolution.nodes.forEach((obj)=>{
     createPage({

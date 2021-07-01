@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Fruit({pageContext}) {
-  console.log(pageContext);
+ // console.log(pageContext);
   
 
   

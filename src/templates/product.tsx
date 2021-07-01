@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 
 export default function Product({pageContext}) {
-    console.log(pageContext);
+    //console.log(pageContext);
     const {itemDetails} = pageContext 
     return (
         <Layout>
