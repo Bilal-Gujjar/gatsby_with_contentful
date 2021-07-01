@@ -3,7 +3,7 @@ import { Router } from "@reach/router";
 import Layout from '../components/layout'
 import Product1 from '../components/product1'
 import Product2 from '../components/product2'
-import FinalTest  from '../components/finalTest'
+import FinalPage from '../components/finalTest'
 import Main from '../components/main'
 import { Link } from 'gatsby';
 
@@ -24,7 +24,7 @@ const Product = () => {
             <Router basepath="/product">
                 <Product1 path= "/Shot-click"/>
                 <Product2 path= "/Captured"/>
-                <FinalTest path="/FinalPage"/>
+                <FinalPage path="/FinalPage"/>
                 <Main path = "/"/>
             </Router>
         </Layout>
