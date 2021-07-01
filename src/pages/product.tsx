@@ -24,7 +24,7 @@ const Product = () => {
             <Router basepath="/product">
                 <Product1 path= "/Shot-click"/>
                 <Product2 path= "/Captured"/>
-                <FinalTest path="FinalPage"/>
+                <FinalTest path="/FinalPage"/>
                 <Main path = "/"/>
             </Router>
         </Layout>
