@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import Layout from '../components/layout'
 import Product1 from '../components/product1'
 import Product2 from '../components/product2'
+import FinalTest  from '../components/FinalTest '
 import Main from '../components/main'
 import { Link } from 'gatsby';
 
